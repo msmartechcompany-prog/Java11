@@ -18,10 +18,7 @@ class Student{
     String name;
     double age;
     Student(){
-        id=101;
-        name="Gangan";
-        age=12;
-
+      
     }
     Student(int id, String name){
         this.id=id;
@@ -34,7 +31,7 @@ class Student{
         this.age=age;
     }
     void display(){
-        System.out.println("Details:"+id+ name+ age);
+        System.out.println("Details:"+id+" " +name+" " +age);
     }
 }
 
